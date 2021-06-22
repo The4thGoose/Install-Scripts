@@ -11,7 +11,7 @@ sudo snap install code --classic
 sudo snap install terminal-parrot
 sudo snap install spotify
 sudo apt -y install htop pulseaudio
-sudo npm install vtop
+sudo npm install vtop --global
 git clone https://github.com/imustafin/razer-nari-pulseaudio-profile.git
 cd razer-nari-pulseaudio-profile
 sudo chmod +x install.sh
