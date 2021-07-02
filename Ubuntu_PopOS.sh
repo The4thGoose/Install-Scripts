@@ -4,6 +4,7 @@ sudo apt -y --allow-downgrades full-upgrade
 sudo apt -y install wget git youtube-dl
 sudo apt -y install python3 npm
 sudo apt -y install snapd
+sudo apt -y install openjdk-8-jre
 sudo snap install geforcenow
 sudo snap install retroarch
 sudo snap install geforcenow
@@ -17,3 +18,5 @@ cd razer-nari-pulseaudio-profile
 sudo chmod +x install.sh
 sudo bash install.sh
 cd ..
+wget https://launcher.mojang.com/download/Minecraft.deb
+sudo dpkg -i Minecraft.deb
