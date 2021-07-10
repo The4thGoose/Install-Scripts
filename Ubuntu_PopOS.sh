@@ -27,7 +27,6 @@ sudo snap install retroarch
 sudo snap install code --classic
 sudo snap install terminal-parrot
 sudo snap install spotify
-sudo snap install multipass --beta --classic
 sudo apt -y install htop pulseaudio
 sudo npm install vtop --global
 git clone https://github.com/imustafin/razer-nari-pulseaudio-profile.git
