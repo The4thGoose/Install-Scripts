@@ -22,6 +22,9 @@ sudo apt -y install virt-manager
 wget https://www.termius.com/download/linux/Termius.deb
 sudo dpkg -i Termius.deb
 sudo rm Termius.deb
+sudo add-apt-repository ppa:appimagelauncher-team/stable
+sudo apt-get update
+sudo apt -y install appimagelauncher
 sudo snap install geforcenow
 sudo snap install retroarch
 sudo snap install code --classic
