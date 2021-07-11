@@ -25,6 +25,9 @@ sudo rm Termius.deb
 sudo add-apt-repository ppa:appimagelauncher-team/stable
 sudo apt-get update
 sudo apt -y install appimagelauncher
+sudo wget https://www.realvnc.com/download/file/viewer.files/VNC-Viewer-6.21.406-Linux-x64.deb
+sudo dpkg -i VNC-Viewer-6.21.406-Linux-x64.deb
+sudo rm VNC-Viewer-6.21.406-Linux-x64.deb
 sudo snap install geforcenow
 sudo snap install retroarch
 sudo snap install code --classic
