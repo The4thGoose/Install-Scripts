@@ -5,7 +5,7 @@ sudo pacman -S --noconfirm python3 npm
 sudo pacman -S --noconfirm snapd
 sudo pacman -S --noconfirm openjdk-8-jre
 sudo pacman -S --noconfirm lm-sensors
-sudo pacman -S --noconfirm docker.io
+sudo pacman -S --noconfirm docker
 sudo groupadd docker
 sudo usermod -aG docker kpwenzel
 sudo pacman -S --noconfirm qemu
