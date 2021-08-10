@@ -18,6 +18,7 @@ sudo snap install termius
 sudo pacman -S --noconfirm appimagelauncher
 sudo snap install geforcenow
 sudo snap install retroarch
+sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install code --classic
 sudo snap install terminal-parrot
 sudo snap install spotify
