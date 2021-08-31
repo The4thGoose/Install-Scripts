@@ -6,6 +6,11 @@ sudo apt -y install python3 npm
 sudo apt -y install snapd
 sudo apt -y install openjdk-8-jre
 sudo apt -y install lm-sensors
+sudo apt -y install docker
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo apt update
+sudo apt install gh
 sudo apt -y install docker.io
 sudo groupadd docker
 sudo usermod -aG docker kpwenzel
