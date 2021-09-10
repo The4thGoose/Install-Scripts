@@ -32,6 +32,7 @@ sudo snap install retroarch
 sudo snap install code --classic
 sudo snap install terminal-parrot
 sudo snap install spotify
+sudo snap install spt
 snap install --devmode --beta anbox
 sudo apt -y install htop pulseaudio
 sudo npm install vtop --global
